@@ -16,8 +16,11 @@ import com.dy.produto.entites.Produto;
 import com.dy.produto.repository.ProdutoRepository;
 
 import lombok.AllArgsConstructor;
-
+import lombok.Getter;
+import lombok.Setter;
+@Getter
 @RestController
+@Setter
 @AllArgsConstructor
 @RequestMapping(value="api/produtos")
 public class ProdutoController {
